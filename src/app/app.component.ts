@@ -9,6 +9,7 @@ import { BehaviouralSubjectService } from './behavioural-subject.service';
 })
 
 export class AppComponent {
+  
   title = 'observable-vs-promises';
   userName;
   constructor(private obs: ObservablesServiceService, private bS: BehaviouralSubjectService) {
